@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+    height: 190px ;
+}
+h1{
+    display: inline-block;
+}
+img{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-left: 400px;
+}

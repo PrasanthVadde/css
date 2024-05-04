@@ -1,0 +1,50 @@
+.parent{
+    position: relative;
+    background-color: black;
+    width: 480px;
+    height: 480px;
+    margin-left: 40%;
+}
+.child{
+    position: absolute;
+}
+img{
+    width: 480px;
+    height: 480px;
+}
+.top_left{
+    position: absolute;
+    top: 0px;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+
+}
+.top_right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+.bottom_left{
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    font-size: 2em;
+    background-color: black;
+    border: 2px solid white;
+}
+.bottom_right{
+    position: absolute;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+    font-size: 2em;
+    background-color: black;
+    border: 2px solid white;
+} 

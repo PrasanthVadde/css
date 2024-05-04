@@ -1,0 +1,139 @@
+.nav_bar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: inline-block;
+    z-index: 1;
+    padding: 8px 16px;
+    color: black;
+    background-color: white;
+}
+.a{
+    margin-left: 80%;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.main_image{
+    position:relative;
+    width: 1500px;
+    height: 800px;
+}
+.br{
+    position: absolute;
+    color: white;
+    font-size: 1.3em;
+    left: 680px;
+    top: 400px;
+    background-color: black;
+    opacity: 0.4;
+}
+.architect{
+    position: absolute;
+    color: white;
+    font-size: 1.3em;
+    left: 750px;
+    top: 400px;
+}
+hr{
+    margin: 20px;
+    border-top: 2px solid white;
+}
+.parent{
+    width: 1460px;
+    height: 415px;
+    padding: 8px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    position: relative;
+}
+.house_images img{
+    width: 300px;
+    height: 160px;
+}
+.house{
+    width: 320px;
+    height: 180px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+.text{
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 1.0em;
+    top: 5px;
+}
+.text_1{
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 1.0em;
+    top: 205px;
+}
+.contact{
+    width: 1460px;
+    height: 480px;
+    padding: 8px 16px;
+    position: relative;
+}
+.person{
+    width: 320px;
+    height: 240px;
+    padding: 8px 16px;
+    margin-top: 10px ;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team_img img{
+    width: 300px;
+    height: 220px;
+}
+button{
+    font-size: 15px;
+    margin: 5px 10px;
+    width: 280px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+#form{
+    display: block;
+    margin-top: 8px;
+    width: 95%;
+    height: 30px;
+}
+#message_button{
+    margin-top: 8px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+.map{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 95%;
+    height: 838px;
+    padding: 8px 16px;
+}
+.map img{
+    position: absolute;
+    width:  95%;
+    padding: 8px 16px;
+    height: 838x;
+
+}
+.footer,.footer a{
+    text-align: center;
+    padding: 8px 16px;
+
+    color: white;
+    background-color: black;
+}
