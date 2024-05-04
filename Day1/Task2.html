@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(21, 204, 184);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        #_1{
+            background-color: white ;
+        }
+        #_2{
+            background-color: red;
+        }
+        #_3{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th id="_1">Workshop Registration</th>
+            <td >
+                <select name="" >
+                    <option value="default">More options</option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <u id="_2">Register now when seats are available!!</u>
+    <table>
+        <tr>
+            <td><h4><label for="f_name" id="_3">First Name</label></h4></td>
+            <td><input type="text" name="" id="f_name" required></td>
+            <td><u id="_3">Lunch</u></td>
+        </tr>
+        <tr>
+            <td><h4><label for="l_name" id="_3">Last Name</label></h4></td>
+            <td><input type="text" name="" id="l_name" required></td>
+            <td><h4><label for="meals" id="_3">Meal Preerence</label></h4></td>
+            <td>
+                <select name="" id="meals">
+                    <option value="1">Vegetarian</option>
+                    <option value="2">Non-Vegetarian</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><h4><label for="company" id="_3">Comany Institution</label></h4></td>
+            <td><input type="text" name="" id="company" required></td>
+            <td><u id="_3">Pament Details</u></td>
+        </tr>
+        <tr>
+            <td rowspan="4"><h4><label for="address" id="_3">Address</label></h4></td>
+            <td rowspan="4"><textarea name="" id="address" cols="25" rows="5" required></textarea></td>
+            <td rowspan="3"><h4><label for="mode" id="_3">Payment Mode</label></h4></td>
+            <td><input type="checkbox" name="" id="cash"><label for="cash" id="_3">Cash</label></td>
+
+        </tr>
+            <td><input type="checkbox" name="" id="cheque"><label for="cheque" id="_3">Cheque</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="" id="demand_draft"><label for="demand_draft" id="_3">Demand Draft</label></td>
+        </tr>
+        <tr>
+            <td><h4><label for="cheque_no" id="_3">DD/Cheque No.</label></h4></td>
+            <td><input type="number" name="" id="cheque_no"></td>
+        </tr>
+        <tr>
+            <td><h4><label for="city" id="_3">City</label></h4></td>
+            <td><input type="text" name="" id="city"></td>
+            <td><h4><label for="bank_name" id="_3">Draw on(Bank name)</label></h4></td>
+            <td><input type="text" name="" id="bank_name"></td>
+        </tr>
+        <tr>
+            <td><h4><label for="state" id="_3">State/Province/Region</label></h4></td>
+            <td><select name="" id="state">
+                <option value="default">--select--</option>
+                <option value="1">Andhra Pradesh</option>
+                <option value="2">Telangan</option>
+            </select>
+            </td>
+            <td>
+                <h4><label for="payable_at" id="_3">payable at</label></h4>
+            </td>
+            <td><input type="text" name="" id="payable_at"></td>
+        </tr>
+        <tr>
+            <td><h4><label for="country" id="_3">Country</label></h4></td>
+            <td>
+                <select name="" id="country">
+                    <option value="dafault">--select--</option>
+                    <option value="1">India</option>
+                    <option value="2">USA</option>
+                    <option value="3">UAE</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><h4><label for="email" id="_3">Email</label></h4></td>
+            <td><input type="email" name="" id="emial" required></td>
+        </tr>
+        <tr>
+            <td><h4 ><label for="phone_number" id="_3">Phone Number</label></h4></td>
+            <td><input type="tel" name="" id="phone_number" required></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="submit">
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

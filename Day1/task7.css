@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(26,46,48);
+}
+a{
+    color: red;
+}
+h1{
+    color: rgb(18, 229, 229);
+}
+p{
+    color: rgb(180,46,180);
+}
+span{
+    font-family: cursive;
+    color: white;
+}
