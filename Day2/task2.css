@@ -1,0 +1,38 @@
+#_1{
+    display: inline-block;
+    height: 600px;
+    width: 49%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    background-image: url(./images/3.jpg);
+    background-size:cover;
+    margin: 6px;
+}
+#_2{
+    margin: 6px;
+    display: inline-block;
+    height: 600px;
+    width: 49%;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    float: right;
+    overflow: auto;
+    background-image: url(./images/2.jpg);
+    background-size: cover;
+}
+img{
+    
+}
+#_3{
+    margin-top: 5%;
+}
+#top{
+    font-size: 1.2em;
+    padding: 28%;
+}
+.top{
+    color: white;
+    padding: 8px;
+    background-color: black;
+}

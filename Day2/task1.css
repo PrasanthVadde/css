@@ -1,0 +1,147 @@
+#_1{
+    text-align: center;
+    margin: 5px;
+}
+.style{
+    text-align: center;
+    display: inline-block;
+    padding: 0px 8px;
+    width: 320px;
+    height: 540px;
+    margin: 0px;
+    vertical-align: top;
+    /* border: 2px solid;  */
+}
+#_2{
+    text-align: center;
+    color:blueviolet;
+    margin: 16px auto;
+}
+.bg{
+    padding: 8px 8px;
+    color: white;
+    background-color: black;
+}
+hr{
+    margin: 20px;
+    border-top: 1px solid white;
+}
+#_3{
+    text-align: center;
+}
+.h3{
+    margin: 10px 0px;
+    text-align: center;
+}
+.image{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 533px;
+}
+.div{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    text-align: center;
+}
+.h4{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.h6{
+    margin: 10px 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.p{
+    
+    width: auto;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+#_7{
+    text-align: center;
+    display:inline-block; 
+
+}
+#_5{
+    text-align: center;
+    padding: 32px 8px;
+}
+#_4{
+    display: inline-block;
+    padding: 0 8px;
+    width: 280px;
+}
+.a{
+    margin: 15px 0px;
+    text-align: justify;
+}
+#_6{
+    display: inline-block;
+    width: 280px;
+}
+.ul{
+    padding: 0px;
+    margin: 0px;
+}
+.li{
+    padding: 8px 16px;
+    border-bottom: 1px solid white;
+    
+    list-style-type: none;
+    /* border: 2px solid; */
+}
+.img{
+    width: 35px;
+    height: 35px;
+    margin-right: 16px;
+    vertical-align: middle;
+    
+}
+.span{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#_8{
+    width: 280px;
+    display: inline-block;
+}
+.s{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin: 2px;
+}
+#_4,#_6,#_8{
+    vertical-align: top;
+}
+.h{
+    text-align: left;
+}
+.div_1{
+    max-width: 1200px;
+    font-size: 24px;
+    margin: auto;
+    color: black;
+    background-color: white;
+}
+#d{
+    float: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#c{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.text{
+    text-align: left;
+}
