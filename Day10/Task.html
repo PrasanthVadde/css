@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            width: 100%;
+            height: 100vh;
+            grid-template-columns: repeat(4,150px);
+            grid-template-rows: repeat(3,150px);
+            gap: 10px;
+            color: white;
+            justify-content: center;
+            align-content: center;
+            background-color: black;
+        }
+        .left{
+            width: 1fr;
+            height: 1frs;
+            grid-row: 1/4;
+            background-color: green;
+        }
+        .head{
+            width: 1fr;
+            height: 1fr;
+            grid-column: 2/4;
+            background-color: green;
+        }
+        .right{
+            width: 1fr;
+            height: 1fr;
+            grid-row: 2/4;
+            grid-column: 4/5;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left">left_nav</div>
+        <div class="head">Header</div>
+        <div style="background-color: tomato;">Right_1</div>
+        <div style="background-color: tomato;">Content_1</div>
+        <div style="background-color: yellow;">Content_2</div>
+        <div class="right">Right_2</div>
+        <div style="background-color: yellow;">Content_3</div>
+        <div style="background-color: tomato;">Content_4</div>
+    </div>
+</body>
+</html>
